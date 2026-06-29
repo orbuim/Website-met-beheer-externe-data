@@ -1,0 +1,185 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+.navbar{
+    background:#111827;
+    color:white;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.menu a:hover{
+    color:#60a5fa;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#111827;
+}
+
+.search-form{
+    margin-bottom:20px;
+}
+
+.search-form input{
+    padding:10px;
+    width:300px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+th{
+    background:#111827;
+    color:white;
+    padding:15px;
+    text-align:left;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f8fafc;
+}
+
+.btn{
+    padding:8px 12px;
+    text-decoration:none;
+    border-radius:5px;
+    color:white;
+    border:none;
+    cursor:pointer;
+    display:inline-block;
+}
+
+.btn-add{
+    background:#16a34a;
+}
+
+.btn-add:hover{
+    background:#15803d;
+}
+
+.btn-edit{
+    background:#2563eb;
+}
+
+.btn-edit:hover{
+    background:#1d4ed8;
+}
+
+.btn-delete{
+    background:#dc2626;
+}
+
+.btn-delete:hover{
+    background:#b91c1c;
+}
+
+.btn-secondary{
+    background:#4b5563;
+}
+
+.btn-secondary:hover{
+    background:#374151;
+}
+
+.error{
+    background:#fee2e2;
+    border:1px solid #ef4444;
+    color:#991b1b;
+    padding:12px;
+    border-radius:5px;
+}
+
+button{
+    border:none;
+}
+
+form{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+input, select{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+@media (max-width:768px){
+
+    .header{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .search-form input{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    table{
+        font-size:14px;
+    }
+}
+.movie-card{
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.movie-card img{
+    margin-bottom:20px;
+    border-radius:10px;
+    max-width:250px;
+}
+
+.movie-card p{
+    margin:10px 0;
+}
